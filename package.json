@@ -1,0 +1,32 @@
+{
+  "name": "express-twilio",
+  "version": "0.1.0",
+  "description": "Express server using Twilio's API for video call",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "Twilio",
+    "Video"
+  ],
+  "author": "Seaghan-dev",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "ngrok": "^4.0.1",
+    "twilio": "^3.66.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "engines": {
+    "node": "14.17.0"
+  }
+}
